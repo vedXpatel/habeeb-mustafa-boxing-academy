@@ -1,0 +1,587 @@
+/* body {
+    animation: fadeInAnimation ease 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+  
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0.3;
+    }
+    100% {
+        opacity: 1;
+     }
+} */
+
+
+/* @import url('http://fonts.cdnfonts.com/css/sofia-pro'); */
+
+
+@font-face {
+    font-family: "Sofia Pro";
+    src: url("../fonts/Sofia Pro Regular Az.otf")
+}
+
+body {
+    background-color: black;
+}
+
+
+.display-6 {
+    font-size: 30px;
+}
+
+.headImage {
+    position: relative;
+    z-index: -2;
+    height: 50%;
+}
+
+
+.image-container {
+    position: relative;
+    top: -5rem;
+    background-image: linear-gradient(to right, black 5%, transparent);
+}
+
+@media (max-width: 425px) {
+    .image-container {
+        top: 14rem;
+        background-image: none;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .head-image {
+        width: auto;
+    }
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 1.5rem;
+    margin: 0px 50px;
+}
+
+@media (max-width: 425px) {
+    .nav-link {
+        color: white;
+        font-size: 1rem;
+        margin: 0px 0px;
+    }
+
+    .name {
+        font-size: 10px;
+        top: -9em;
+    }
+}
+
+
+.display-1 {
+    font-family: "Sofia Pro";
+}
+
+
+.nav {
+    position: relative;
+    top: 1.2em;
+    z-index: 3;
+}
+
+
+
+
+.nav-link:hover {
+    color: #FF4C29;
+}
+
+.boxing-logo {
+    width: 20%;
+    position: relative;
+    align-items: center;
+    left: 230px;
+}
+
+.boxing-logo1 {
+    width: 0%;
+    /* position: relative; */
+    /* align-items: center; */
+    /* left: 230px; */
+}
+
+@media (max-width: 425px){
+    .boxing-logo1{
+        width: 20%;
+    }
+
+    .boxing-logo{
+        visibility: hidden;
+    }
+}
+
+.navbar-brand {
+    margin: 0px;
+}
+
+.title {
+    top: -3em;
+}
+
+.name {
+    color: white;
+    position: relative;
+    top: -8em;
+    margin: 0px 200px;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 127px;
+}
+
+.name img {
+    bottom: 150px;
+    left: 165px;
+}
+
+@media (max-width: 425px) {
+    .name {
+        margin: 0px 0px;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        top: -9em;
+    }
+
+    .name img {
+        bottom: 0px;
+        left: 0px;
+        top: 0px;
+
+    }
+}
+
+
+.head-testimonial {
+    text-align: center;
+    margin: 20px 300px;
+    color: white;
+
+}
+
+.head-testimonial2 {
+    text-align: center;
+    margin: 20px 300px;
+    color: white;
+
+}
+
+.head-testimonial1 {
+    text-align: left;
+    margin: 150px 300px 0px 50px;
+    color: white;
+}
+
+
+@media (max-width: 768px) {
+    .head-testimonial {
+        margin: 500px 0px 0px 0px;
+    }
+
+    .head-testimonial1 {
+        margin: 50px 0px;
+        text-align: center;
+    }
+
+    .display-6 {
+        font-size: 20px;
+    }
+
+    .testimonial {
+        position: relative;
+        top: 2em;
+    }
+
+    .head-testimonial2 {
+        margin: 30px 0px 0px 0px;
+    }
+}
+
+
+
+.info {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .info{
+        top: -6em;
+    }
+}
+
+.achievements {
+    /* background: linear-gradient(to right, #082032,#2C394B); */
+    background-image: url('../images/glove.jpg');
+    text-align: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: auto;
+    height: 1000px;
+}
+
+@media (max-width: 425px) {
+    .achievements {
+        height: 700px;
+    }
+}
+
+.achievement-text {
+    margin: auto;
+    text-align: left;
+}
+
+@media (max-width: 425px) {
+    .achievement-text {
+        font-size: 1em;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
+
+.head-achievement-text {
+    margin: 100px 0px;
+}
+
+.testimonial {
+    position: relative;
+    top: -8em;
+}
+
+.video-text {
+    font-family: 'Sofia Pro', sans-serif;
+    margin: 5% 17%;
+    position: relative;
+    font-size: 5em;
+    text-align: center;
+}
+
+.video-text1 {
+    font-family: 'Sofia Pro', sans-serif;
+    margin: 5% 17%;
+    position: relative;
+    font-size: 3em;
+    text-align: center;
+}
+
+@media (max-width: 425px) {
+
+    .video-text1 {
+        bottom: 3em;
+        font-size: 1em;
+        margin: 0%;
+    }
+}
+
+
+.testimonial-image {
+    width: 70%;
+    align-items: right;
+}
+
+.row {
+    margin-top: 230px;
+}
+
+.coach-image {
+    height: 100%;
+}
+
+@media (max-width: 425px) {
+    .coach-image {
+        width: 100%;
+        position: relative;
+        top: 2.5em;
+    }
+}
+
+
+.image-section {
+    margin-top: 8em;
+    /* background: linear-gradient(to right, #082032,#2C394B); */
+    background-color: black;
+    align-items: center;
+    padding: 0.1% 5% 2% 5%;
+}
+
+
+.image-section img {
+    width: 100%;
+    border-radius: 15px;
+    filter: grayscale(1);
+    transition: all 0.8s ease;
+}
+
+.image-section img:hover {
+    filter: none;
+    transition: all 0.5s ease;
+}
+
+.footer {
+    text-align: center;
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 30px;
+    position: relative;
+    bottom: 2em;
+    color: white;
+}
+
+.logos {
+    margin-left: 0.2em;
+}
+
+/* img {
+    filter: grayscale(1);
+    transition: all 0.8s ease;
+}
+
+img:hover{
+    filter: none;
+    transition: all 0.8s ease;
+} */
+
+.ml4 {
+    position: relative;
+    font-weight: 900;
+    font-size: 4.5em;
+}
+
+@media (max-width: 768px) {
+    .ml4 {
+        font-size: 3em;
+    }
+}
+
+.ml4 .letters {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0.3em;
+    right: 0;
+    opacity: 0;
+}
+
+.carousel-text {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 3.2em;
+}
+
+@media (max-width: 425px) {
+    .carousel-text {
+        font-size: 1em;
+    }
+}
+
+.icon {
+    width: 45%;
+}
+
+.icon:hover {
+    filter: invert(1);
+}
+
+.about-image {
+    margin-left: 450px;
+    height: 75%;
+}
+
+@media (max-width: 425px) {
+    .about-image {
+        margin-left: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+#features {
+    position: relative;
+    padding: 7% 15%;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+.bold {
+    font-family: 'Sofia Pro', sans-serif;
+    font-size: 6em;
+    color: gray;
+}
+
+@media (max-width: 425px) {
+    .bold {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 425px) {
+    .carousel-control-next {
+        visibility: hidden;
+    }
+
+    .carousel-control-prev {
+        visibility: hidden;
+    }
+}
+
+.mentor-text {
+    text-align: right;
+    padding-left: 250px;
+}
+
+@media (max-width: 425px) {
+    .mentor-text {
+        text-align: center;
+        padding-left: 0px;
+    }
+}
+
+.navbar-small{
+    visibility: hidden;
+}
+
+
+@media (max-width: 425px) {
+    .navbar-large{
+        visibility: hidden;
+    }
+
+    .navbar-small{
+        visibility: visible;
+    }
+}
+
+/* gallery css */
+
+  
+.image-gallery {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+    grid-auto-flow: dense;
+    grid-gap: 20px;
+  }
+  
+  .image-gallery .image-box {
+    position: relative;
+    background-color: #d7d7d8;
+    overflow: hidden;
+  }
+  
+  .image-gallery .image-box:nth-child(7n + 1) {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .image-gallery .image-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: all 0.5s ease;
+  }
+  
+  .image-gallery .image-box:hover img {
+    transform: scale(1.1);
+  }
+  
+  .image-gallery .image-box .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fafafaf2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+  
+  .image-gallery .image-box:hover .overlay {
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    opacity: 1;
+  }
+  
+  .image-gallery .image-box .details {
+    text-align: center;
+  }
+  
+  .image-gallery .image-box .details .title {
+    margin-bottom: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    position: relative;
+    top: -5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .image-gallery .image-box .details .category {
+    font-size: 18px;
+    font-weight: 400;
+    position: relative;
+    bottom: -5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  .image-gallery .image-box:hover .details .title {
+    top: 0px;
+    opacity: 1;
+    /* visibility: visible; */
+    transition: all 0.3s 0.2s ease;
+  }
+  
+  .image-gallery .image-box:hover .details .category {
+    bottom: 0;
+    opacity: 1;
+    /* visibility: visible; */
+    transition: all 0.3s 0.2s ease;
+  }
+  
+  .image-gallery .image-box .details .title a,
+  .image-gallery .image-box .details .category a {
+    color: #222222;
+    text-decoration: none;
+  }
+  
+  /* Let's make it responsive */
+  @media (max-width: 768px) {
+    .image-gallery {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-auto-rows: 250px;
+    }
+  
+    .image-gallery .image-box:nth-child(7n + 1) {
+      grid-column: unset;
+      grid-row: unset;
+    }
+  }
+
+  .gallery-text{
+      margin: 5%;
+  }
+
